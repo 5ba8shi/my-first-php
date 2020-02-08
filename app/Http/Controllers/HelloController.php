@@ -18,7 +18,7 @@ class HelloController extends Controller
     margin:-40px 0px -50px 0px; }
     </style>
     </head>
-    <body>]
+    <body>
         <h1>Index</h1>
         <p>これは、Helloコントローラーのindexアクションです。</p>
     </body>
