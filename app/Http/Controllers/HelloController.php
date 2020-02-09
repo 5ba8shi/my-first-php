@@ -13,8 +13,8 @@ class HelloController extends Controller
         <head>
         <title>Hello/Index</title>
         <style>
-        body {fount-size: 16pt; color:#999; }
-        h1 { fount-size:120pt; text-align:right; color:#fafafa;
+        body {font-size: 16pt; color:#999; }
+        h1 { font-size:120pt; text-align:right; color:#fafafa;
             margin:-50px 0px -120px 0px; }
         </style>
         </head>
