@@ -9,10 +9,11 @@
   </head>
   <body>
       <h1>Blade/Index</h1>
-      <p>&#064;forearchディレクティブの例</p>
+      <p>&#064;foreachディレクティブの例</p>
       <ol>
-      @foreach($data as $item)
-      <li>{{$item}}
-      @endforeach
+        @foreach($data as $item)
+        <li>{{$item}}
+        @endforeach
+      </ol>
   </body>
 </html>
