@@ -9,11 +9,16 @@
   </head>
   <body>
     <h1>Blade/Index</h1>
-    <p>{{$msg}}</p>
-    <form method="POST" action="/hello">
-      {{ csrf_field() }}
-      <input type="text" name="msg">
-      <input type="submit">
-    </form>
+    <p>&#064;forディレクティブ</p>
+    @foreach ($data as $item)
+      @if ($loop->first)
+        <p>※データ一覧</p>
+        <ul>
+      @endif
+          <li>NO,{{$loop->index}}. {{$item}}</li>
+      @if ($loop->last)
+        </ul><p>ーーーーここまで</p>
+      @endif
+    @endforeach
   </body>
 </html>
